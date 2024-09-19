@@ -1,0 +1,14 @@
+$(HOLDIR)/examples/generic_graphs/genericGraphTheory
+$(HOLDIR)/sigobj/EnumType
+$(HOLDIR)/sigobj/Globals
+$(HOLDIR)/sigobj/HOLdict
+$(HOLDIR)/sigobj/Overlay
+$(HOLDIR)/sigobj/Parse
+$(HOLDIR)/sigobj/Term
+$(HOLDIR)/sigobj/Theory
+$(HOLDIR)/sigobj/TheoryReader
+$(HOLDIR)/sigobj/Thm
+$(HOLDIR)/sigobj/Type
+/Users/ziyiguo/my_hol_stuff/graphtheory/someLinearAlgebraTheory
+/Users/ziyiguo/my_hol_stuff/graphtheory/someLinearAlgebraTheory
+/Users/ziyiguo/my_hol_stuff/graphtheory/someLinearAlgebraTheory.sml

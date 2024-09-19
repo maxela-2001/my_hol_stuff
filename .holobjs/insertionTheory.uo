@@ -1,0 +1,14 @@
+$(HOLDIR)/sigobj/Globals
+$(HOLDIR)/sigobj/HOLdict
+$(HOLDIR)/sigobj/Overlay
+$(HOLDIR)/sigobj/Parse
+$(HOLDIR)/sigobj/Term
+$(HOLDIR)/sigobj/Theory
+$(HOLDIR)/sigobj/TheoryReader
+$(HOLDIR)/sigobj/Thm
+$(HOLDIR)/sigobj/Type
+$(HOLDIR)/sigobj/indexedListsTheory
+$(HOLDIR)/sigobj/patternMatchesTheory
+/Users/ziyiguo/my_hol_stuff/insertionTheory
+/Users/ziyiguo/my_hol_stuff/insertionTheory
+/Users/ziyiguo/my_hol_stuff/insertionTheory.sml

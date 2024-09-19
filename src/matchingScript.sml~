@@ -1,0 +1,40 @@
+open HolKernel Parse boolLib bossLib;
+open fsgraphTheory pred_setTheory;
+
+val _ = new_theory "matching";
+
+
+        
+Definition matching_def:
+  matching (G: fsgraph) M ⇔ (M ⊆ fsgedges G) ∧ (∀e1 e2. e1 ∈ M ∧ e2 ∈ M ∧ e1 ≠ e2 ⇒ DISJOINT e1 e2)
+End
+
+Definition matching_of_def:
+  matching_of (G: fsgraph) M U
+              ⇔ matching G M ∧ U ⊆ nodes G ∧ (∀u. u ∈ U ⇒ (∃e. e ∈ M ∧ u ∈ e))
+End
+
+Definition unmatched_def:
+  unmatched G M v ⇔ matching G M ∧ ∀e. e ∈ M ⇒ v ∉ e
+End
+        
+Definition vertex_cover_def:
+  vertex_cover G U ⇔ U ⊆ nodes G ∧ ∀e. e ∈ fsgedges G ⇒ ∃v. v ∈ U ∧ v ∈ e
+End
+
+(* Konig 1931, page 37*)
+Theorem max_card_matching_thm:
+  ∀G. MAX_SET (IMAGE CARD (matching G)) = MIN_SET (IMAGE CARD (vertex_cover G))
+Proof
+QED
+        
+        
+
+
+
+    
+
+
+
+val _ = export_theory();
+

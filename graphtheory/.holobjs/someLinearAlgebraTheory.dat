@@ -1,0 +1,165 @@
+(theory
+ (("someLinearAlgebra" "1724387588" "645969")
+  ("genericGraph" "1724342712" "506363"))
+ (core-data
+  (tables
+   (string-table "min" "fun" "bool" "someLinearAlgebra" "Graph" "num" "!"
+    "/\\" "0" "prim_rec" "<" "=" "==>" "?" "arithmetic" "BIT1" "DATATYPE"
+    "Emp" "Graph2num" "Graph_CASE" "Graph_size" "NUMERAL" "TYPE_DEFINITION"
+    "ZERO" "num2Graph" "Graph_size_def" "Graph_TY_DEF" "Graph_BIJ"
+    "@tempEmp_def" "num2Graph_thm" "num2Graph_ONTO" "num2Graph_Graph2num"
+    "num2Graph_11" "datatype_Graph" "Graph_nchotomy" "Graph_induction"
+    "Graph_case_eq" "Graph_case_def" "Graph_case_cong" "Graph_EQ_Graph"
+    "Graph_Axiom" "Graph2num_thm" "Graph2num_num2Graph" "Graph2num_ONTO"
+    "Graph2num_11" "numeral" "cv" "sat")
+   (id-table (0 . 1) (0 . 2) (3 . 4) (5 . 5) (2 . 6) (2 . 7) (5 . 8)
+    (9 . 10) (0 . 11) (0 . 12) (2 . 13) (14 . 15) (2 . 16) (3 . 17)
+    (3 . 18) (3 . 19) (3 . 20) (14 . 21) (2 . 22) (14 . 23) (3 . 24))
+   (type-table (1) (2) (0 1 0) "'a" (0 1 3) (3) (0 1 5) (0 3 0) (0 7 0)
+    (0 2 0) (0 9 0) (0 5 0) (0 11 0) (0 0 0) (0 0 13) (0 5 11) (0 3 7)
+    (0 1 2) (0 4 0) (0 18 0) (0 6 0) (0 20 0) (0 5 5) (0 3 3) (0 1 23)
+    (0 11 20) (0 5 1) (0 8 0))
+   (term-table ("Graph" 2) ("M" 1) ("M'" 1) ("P" 2) ("a" 1) ("a'" 1)
+    ("f" 4) ("m" 5) ("n" 5) ("r" 5) ("r'" 5) ("rep" 6) ("v" 3) ("v0" 3)
+    ("v0'" 3) ("x" 1) ("x0" 3) (4 8) (4 9) (4 10) (4 12) (5 14) (6 5)
+    (7 15) (8 16) (8 17) (8 14) (8 15) (9 14) (10 9) (10 19) (10 21)
+    (10 12) (11 22) (12 13) (13 1) (14 6) (15 24) (16 6) (17 22) (18 25)
+    (19 5) (20 26) ("f" 7) (4 27))) exports (nil) (nil)
+  ((25 (((3 12))) ("%15$0U38%22B27|U18"))
+   (26 (((3 0) (2 25) (45 3 7)) "DISK_THM")
+    ("%11%8$0%41U33U39B23|$0B40|U31"))
+   (19 (((3 13))) ("%15%13$1$0B37%7$1|$1U36@B24|U17|U18"))
+   (27 (((3 1) (2 117) (3 0)) "DISK_THM")
+    ("%4$0U36U42$0B25|U18%9%8$0%41U33U39B23|$0@$0U42U36$0B27B26|U20B21"))
+   (28 (((3 8))) ("%35%22U42B25")) (29 (((3 9) (3 8))) ("%22U42%35B25"))
+   (30 (((3 6) (2 25 63) (3 1)) "DISK_THM")
+    ("%4%9$1$0U42B25$0%41U33U39B23B21|U32|U18"))
+   (31 (((3 2) (3 1)) "DISK_THM") ("%4$0U36U42$0B25|U18"))
+   (32 (((3 4) (2 26) (3 1)) "DISK_THM")
+    ("%9%10$1%41U33U39B23$0%41U33U39B23$1U42$0U42B25$1$0B27B26B28B28|U20|U20"))
+   (33 (((3 15) (2 25 173)) "DISK_THM") ("%35U0U34"))
+   (34
+    (((3 16)
+      (14 1 2 3 4 5 7 8 27 28 30 47 52 66 89 111 204 205 209 212 316)
+      (2 8 14 25 31 35 42 50 51 54 58 63 64 93 96 101 104 105 107)
+      (46 31 32 35 36 37 42 53 55 57 59 61 63 65 66 67 68 69 76 81 82)
+      (45 3 6 7 16) (47 1 3 5 6 7 11 12 13 15) (3 6 8)) "DISK_THM")
+    ("%4$0%35B25|U18"))
+   (35
+    (((3 18)
+      (14 1 2 3 4 5 7 8 27 28 30 47 52 66 89 111 204 205 209 212 316)
+      (2 8 14 25 31 35 42 50 51 54 58 63 64 93 96 101 104 105 107)
+      (46 31 32 35 36 37 42 53 55 57 59 61 63 65 66 67 68 69 76 81 82)
+      (45 3 6 7 16) (47 1 3 5 6 7 11 12 13 15) (3 6 8)) "DISK_THM")
+    ("%3%35u0%4$0u1|U18B28|U19"))
+   (36
+    (((3 20)
+      (14 1 2 3 4 5 7 8 27 28 30 47 52 66 89 111 204 205 209 212 316)
+      (2 8 14 25 26 31 35 42 50 51 54 55 58 63 64 93 96 101 104 105 107)
+      (46 31 32 35 36 37 42 53 55 57 59 61 63 65 66 67 68 69 76 81 82)
+      (45 3 6 7 16) (47 1 3 5 6 7 11 12 13 15) (3 6 8 14)) "DISK_THM")
+    ("%15%13B37%12B24%15%35B25%13%12B24B21B26"))
+   (37 (((3 14) (3 10 13)) "DISK_THM") ("%13%35$0B37$0B24|U17"))
+   (38
+    (((3 19)
+      (14 1 2 3 4 5 7 8 27 28 30 47 52 66 89 111 204 205 209 212 316)
+      (2 8 14 25 31 35 42 50 51 54 58 63 64 93 96 101 104 105 107)
+      (46 31 32 35 36 37 42 53 55 57 59 61 63 65 66 67 68 69 76 81 82)
+      (45 3 6 7 16) (47 1 3 5 6 7 11 12 13 15) (3 6 8 14)) "DISK_THM")
+    ("%1%2%13$2$1B25$1%35B25$0%14B24B28B21$2$0B37$1%14B37B24B28|U17|U18|U18"))
+   (39 (((3 11) (2 58) (3 5)) "DISK_THM")
+    ("%4%5$1$0B25$1U36$0U36B27B26|U18|U18"))
+   (40 (((3 17) (2 8 25 56) (3 10)) "DISK_THM")
+    ("%16%6%35u0$1B24|U30|U17"))
+   (41 (((3 10) (2 25) (45 3 7) (3 3 8)) "DISK_THM") ("%35U36%22B27"))
+   (42 (((3 3) (3 1)) "DISK_THM") ("%9$0%41U33U39B23$0U42U36$0B27B26|U20"))
+   (43 (((3 7) (2 26) (3 1)) "DISK_THM")
+    ("%9$0%41U33U39B23%4$1$0U36B27|U29B26|U20"))
+   (44 (((3 5) (2 26) (3 1)) "DISK_THM")
+    ("%4%5$1U36$0U36B27$1$0B25B26|U18|U18"))))
+ (incorporate (incorporate-types ("Graph" . 0)) incorporate-consts
+  ("num2Graph" . 26) ("Graph_size" . 6) ("Graph_CASE" . 24)
+  ("Graph2num" . 6) ("Emp" . 1))
+ (thm-classes nil (26 27 20 28)
+  (30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45))
+ (loadable-thydata ("userdef.deltas" (tag-knm 3 . 25) (tag-knm 3 . 19))
+  ("grammardelta" (new-type (tag-knm 3 . 4))
+   (OO "Graph2num" (tag-tm . "%36")) (OO "num2Graph" (tag-tm . "%42"))
+   (OO "Emp" (tag-tm . "%35")) (OO "Graph_size" (tag-tm . "%38"))
+   (OO "Graph_CASE" (tag-tm . "%37")) (OO "case" (tag-tm . "%37")))
+  ("TypeBase.deltas"
+   (("someLinearAlgebra" "Graph")
+    (DFACTS ty (tag-ty . "%15") axiom
+     (tag-th
+      ("someLinearAlgebra" 21 (("bool" 8 25 56) ("someLinearAlgebra" 10))
+       ("DISK_THM")) "%16%6%35u0$1B24|U30|U17") induction
+     (tag-th
+      ("someLinearAlgebra" 22
+       (("arithmetic" 1 2 3 4 5 7 8 27 28 30 47 52 66 89 111 204 205 209
+         212 316)
+        ("bool" 8 14 25 31 35 42 50 51 54 58 63 64 93 96 101 104 105 107)
+        ("cv" 31 32 35 36 37 42 53 55 57 59 61 63 65 66 67 68 69 76 81 82)
+        ("numeral" 3 6 7 16) ("sat" 1 3 5 6 7 11 12 13 15)
+        ("someLinearAlgebra" 6 8)) ("DISK_THM"))
+      "%3%35u0%4$0u1|U18B28|U19") case_def
+     (tag-th
+      ("someLinearAlgebra" 14 (("someLinearAlgebra" 10 13)) ("DISK_THM"))
+      "%13%35$0B37$0B24|U17") case_eq
+     (tag-th
+      ("someLinearAlgebra" 23
+       (("arithmetic" 1 2 3 4 5 7 8 27 28 30 47 52 66 89 111 204 205 209
+         212 316)
+        ("bool" 8 14 25 26 31 35 42 50 51 54 55 58 63 64 93 96 101 104 105
+         107)
+        ("cv" 31 32 35 36 37 42 53 55 57 59 61 63 65 66 67 68 69 76 81 82)
+        ("numeral" 3 6 7 16) ("sat" 1 3 5 6 7 11 12 13 15)
+        ("someLinearAlgebra" 6 8 14)) ("DISK_THM"))
+      "%15%13B37%12B24%15%35B25%13%12B24B21B26") case_elim
+     (tag-th
+      ("someLinearAlgebra" 24
+       (("arithmetic" 1 2 3 4 5 7 8 27 28 30 47 52 66 89 111 204 205 209
+         212 316)
+        ("bool" 8 14 25 26 31 35 42 50 51 54 55 58 63 64 93 96 101 104 105
+         107)
+        ("cv" 31 32 35 36 37 42 53 55 57 59 61 63 65 66 67 68 69 76 81 82)
+        ("numeral" 3 6 7 16) ("sat" 1 3 5 6 7 11 12 13 15)
+        ("someLinearAlgebra" 6 8 14)) ("DISK_THM"))
+      "%43%15%13B37u0%15%35B25%13u0B21B26|U44") case_cong
+     (tag-th
+      ("someLinearAlgebra" 25
+       (("arithmetic" 1 2 3 4 5 7 8 27 28 30 47 52 66 89 111 204 205 209
+         212 316)
+        ("bool" 8 14 25 31 35 42 50 51 54 58 63 64 93 96 101 104 105 107)
+        ("cv" 31 32 35 36 37 42 53 55 57 59 61 63 65 66 67 68 69 76 81 82)
+        ("numeral" 3 6 7 16) ("sat" 1 3 5 6 7 11 12 13 15)
+        ("someLinearAlgebra" 6 8 14)) ("DISK_THM"))
+      "%1%2%13$2$1B25$1%35B25$0%14B24B28B21$2$0B37$1%14B37B24B28|U17|U18|U18")
+     case_const (tag-tm . "%37") constructors ((tag-tm . "%35"))
+     destructors nil recognizers nil size
+     (SOME
+      ((tag-tm . "%38")
+       (tag-th ("someLinearAlgebra" 12 nil nil) "%15$0U38%22B27|U18")))
+     encode NONE lift NONE distinct NONE nchotomy
+     (tag-th
+      ("someLinearAlgebra" 26
+       (("arithmetic" 1 2 3 4 5 7 8 27 28 30 47 52 66 89 111 204 205 209
+         212 316)
+        ("bool" 8 14 25 31 35 42 50 51 54 58 63 64 93 96 101 104 105 107)
+        ("cv" 31 32 35 36 37 42 53 55 57 59 61 63 65 66 67 68 69 76 81 82)
+        ("numeral" 3 6 7 16) ("sat" 1 3 5 6 7 11 12 13 15)
+        ("someLinearAlgebra" 6 8)) ("DISK_THM")) "%4$0%35B25|U18") one_one
+     NONE fields nil accessors nil updates nil simpls
+     ((tag-th
+       ("someLinearAlgebra" 14 (("someLinearAlgebra" 10 13)) ("DISK_THM"))
+       "%13%35$0B37$0B24|U17")
+      (tag-th
+       ("someLinearAlgebra" 10
+        (("bool" 25) ("numeral" 3 7) ("someLinearAlgebra" 3 8))
+        ("DISK_THM")) "%35U36%22B27")
+      (tag-th ("someLinearAlgebra" 9 (("someLinearAlgebra" 8)) nil)
+       "%22U42%35B25")) extra
+     ((ssfrag_CONV "EnumType"
+       (tag-th
+        ("someLinearAlgebra" 10
+         (("bool" 25) ("numeral" 3 7) ("someLinearAlgebra" 3 8))
+         ("DISK_THM")) "%35U36%22B27"))))))))

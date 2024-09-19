@@ -1,0 +1,20 @@
+<<HOL message: Created theory "someLinearAlgebra">>
+Saved theorem _______ "num2Graph_Graph2num"
+Saved theorem _______ "Graph2num_num2Graph"
+Saved theorem _______ "num2Graph_11"
+Saved theorem _______ "Graph2num_11"
+Saved theorem _______ "num2Graph_ONTO"
+Saved theorem _______ "Graph2num_ONTO"
+Saved theorem _______ "num2Graph_thm"
+Saved theorem _______ "Graph2num_thm"
+Saved theorem _______ "Graph_EQ_Graph"
+Saved theorem _______ "Graph_case_def"
+Saved theorem _______ "datatype_Graph"
+Saved theorem _______ "Graph_nchotomy"
+Saved theorem _______ "Graph_Axiom"
+Saved theorem _______ "Graph_induction"
+Saved theorem _______ "Graph_case_cong"
+Saved theorem _______ "Graph_case_eq"
+<<HOL message: Defined type: "Graph">>
+Exporting theory "someLinearAlgebra" ... done.
+Theory "someLinearAlgebra" took 0.00208s to build

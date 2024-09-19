@@ -1,0 +1,5 @@
+<<HOL message: Created theory "helloGraph">>
+error in quse /Users/ziyiguo/my_hol_stuff/graphtheory/helloGraphScript.sml : Fail "Static Errors"
+error in load /Users/ziyiguo/my_hol_stuff/graphtheory/helloGraphScript : Fail "Static Errors"
+/Users/ziyiguo/my_hol_stuff/graphtheory/helloGraphScript.sml:6: error: ; expected but = was found
+Uncaught exception: Fail "Static Errors"

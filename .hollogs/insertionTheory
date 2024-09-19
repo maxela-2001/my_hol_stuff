@@ -1,0 +1,7 @@
+<<HOL message: Created theory "insertion">>
+Saved definition ____ "insert1_def"
+Saved definition ____ "insert_sort_def"
+Saved theorem _______ "insert1_length"
+Saved theorem _______ "insert_sort_length"
+Exporting theory "insertion" ... done.
+Theory "insertion" took 0.12055s to build

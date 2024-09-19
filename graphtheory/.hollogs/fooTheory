@@ -1,0 +1,3 @@
+Couldn't find required output file: /Users/ziyiguo/my_hol_stuff/graphtheory/fooTheory.sml
+  check that export_theory call exists, and that new_theory
+  call is of the right name

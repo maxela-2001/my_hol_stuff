@@ -1,0 +1,7 @@
+open HolKernel Parse boolLib bossLib;
+open genericGraphTheory;
+
+Datatype:
+  GRAPH = Graph of vertex list * (vertex * vertex) list
+End
+   

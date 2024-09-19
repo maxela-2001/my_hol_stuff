@@ -1,0 +1,6 @@
+(theory
+ (("matching" "1725596106" "676065") ("fsgraph" "1724342736" "451467"))
+ (core-data (tables (string-table) (id-table) (type-table) (term-table))
+  exports (nil) (nil) nil)
+ (incorporate (incorporate-types) incorporate-consts)
+ (thm-classes nil nil nil) (loadable-thydata))
